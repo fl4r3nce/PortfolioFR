@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio de Florencia Rios</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2006f78a21.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<!-- Logo + Menu -->
+			<div class="nav row rounded-top align-items-strech justify-content-between">
+				<!-- Logotipo -->
+				<div
+					class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<h2>Florencia Rios</h2>
+					<span class="icono icon-dot"></span>
+					<p>Development and Design</p>
+				</div>
+
+				<!-- Menu -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#portfolio" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portfolio </span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#acercade" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#contacto" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+
+			<!-- Slider -->
+			<!---->
+			<div class="row slider">
+				<div class="col">
+					<div class="carousel slide" id="slider" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider" data-slide-to="0" class="active"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/slider.jpg" alt="Slide #1" class="d-block img-fluid">
+								<div class="carousel-caption d-none d-md-block">
+									<h6>3D MAX</h6>
+									<p>Manipulacion de objetos graficos, animacion e imagenes digitales con este
+										poderoso software</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="img/slider2.jpg" alt="Slide #2" class="d-block img-fluid">
+								<div class="carousel-caption d-none d-md-block">
+									<h6>3D MAX</h6>
+									<p>Texturas, iluminacion, sombras, direcciones</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="img/slide3.jpg" alt="Slide #3" class="d-block img-fluid">
+								<div class="carousel-caption d-none d-md-block">
+									<h6>3D MAX</h6>
+									<p>Modelacion y renderizado, un acercamiento a la creacion de elementos de diseño
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<!-- Seccion Portafolio -->
+			<div class="row portafolio">
+				<div class="col">
+					<h2 id="portfolio" class="titulo">Portfolio</h2>
+					<div class="row galeria justify-content-center">
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/imag-1.png" height="700" width="393" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-2.jpg" height="232" width="900" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-3.jpg" height="232" width="900" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-4.jpg" height="700px" width="393px" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-5.png" height="700" width="393" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/img-6.png" height="700" width="393" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/semiotica.png" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<!-- Ventana Modal -->
+						<div class="modal fade" id="modal">
+							<div class="modal-dialog d-flex justify-content-center align-items-center">
+								<div class="modal-content">
+									<img src="img/img-1.jpg" alt="" id="imagen-modal" class="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+
+			<!-- Seccion Acerca de -->
+			<div class="row acerca-de align-items-center">
+				<div class="col-12 col-lg-4 foto">
+					<img src="img/foto.jpg" class="rounded-circle img-fluid" width="200" height="200" alt="">
+					<p class="nombre">Florencia Rios</p>
+				</div>
+				<div class="col-12 col-lg-8 info">
+					<a href="#">
+						<h2 class="titulo" id="acercade">Acerca de</h2>
+					</a>
+					<p class="resumen">Mi nombre es Florencia Rios, tengo 27 años y soy de la provincia de Cordoba.</p>
+					<p class="resumen">Actualmente me encuentro finalizando el ultimo año de la carrera Diseño de
+						Multimedios en la institucion Ies.</p>
+					<p class="resumen">Cuento con experiencia en el desarrollo digital manipulando diversos trabajos en
+						el campo grafico, sonido, video, fotografia digital, animacion 3D y sitios webs. Ademas, fui
+						becada para participar del programa "DIGIT@LERS", en conjunto con Telecom y EducionIT, sobre
+						disenio UX/UI.
+					</p>
+					<p class="resumen">Me apasiona aplicar estas herramientas desarrollando soluciones creativas e innovadoras. Me
+						considero proactiva y dinámica, con habilidades comunicacionales para desarrollarme en equipo,
+						predispuesta a escuchar y proponer ideas.</p>
+				</div>
+			</div>
+			<hr>
+			<!--Videos de practicas webs-->
+			<section>
+				<h3 class="h3 text-center">Diseño y Desarrollo Web</h3>
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-1 mr-3">
+								<i class="fa fa-code fa-2x indigo-text"></i>
+							</div>
+							<div class="col-10">
+								<h5 class="feature-title">HTML y CSS</h5>
+								<p class="gray-text">RENAULT: CAMPEONATO'82. Sitio estructurado con HTML, destacado por
+									los hipervinculos y la manipulacion de videos dentro del sitio. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/mhUG87MtGHE"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<!--Video 2-->
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-1 mr-3">
+								<i class="fa fa-code fa-2x indigo-text"></i>
+							</div>
+							<div class="col-10">
+								<h5 class="feature-title">BOOTSTRAP</h5>
+								<p class="gray-text">Rediseño del sitio "Cantina de Chichilo", el mismo presentaba
+									diversos errores de diseño, usabilidad, programacion, etc. Se propuso un diseño en
+									base a un analisis previo de investigacion y bocetado. El sitio se centra en colores
+									caracteristicos, en su historia y en su comida tipica. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/u590Z89V63U"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<!--Video 3-->
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-1 mr-3">
+								<i class="fa fa-code fa-2x indigo-text"></i>
+							</div>
+							<div class="col-10">
+								<h5 class="feature-title">BOOTSTRAP PHP MYSQL </h5>
+								<p class="gray-text">Ejercitacion propuesta en base a una red social, la misma cuenta
+									con un login de registro, permite publicaciones ya sea una simple cadena de texto o
+									subir
+									una fotografia se puede borrar o modificar dicha publicacion. </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/RvTwyzE_7g4"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<br>
+				<hr>
+			</section>
+			<!--VIDEOS CON PREMIERE-->
+			<h3 class="h3 text-center">Edicion de video con Adobe Premiere y After Effects</h3>
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-solid fa-play"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title"> </h5>
+							<p class="gray-text">Video desarrollado con Adobe Premiere, empleando de manera provechosa
+								las diversas herramientas de edicion que tiene este poderoso software. La edicion es
+								sobre un trabajo practico de la materia video en la cual, se nos solicita hacer un video
+								publicitando la ciudad escogida mediante sus caracteristicas locales.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/co8RHMMN_kY"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+			<!--Video 2-->
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-solid fa-play"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title"> </h5>
+							<p class="gray-text">Video llevado a cabo con Adobe After Effects, manipulando diversos
+								elementos tales como: movimiento, escala, textura, ubicacion, chroma key, edicion
+								de colores, sombras, etc. Gracias a este poderoso software se llevo a cabo la creacion
+								de esta composicion, mediante efectos especiales.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/CKuWsbf3OFQ"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<!--Video 3-->
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-solid fa-play"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title"> </h5>
+							<p class="gray-text">Pieza digital creada bajo el software Aftter Effects, "Loop
+								Tipografico".
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/hAPql0yOBlU"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<!--Video 3-->
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-solid fa-play"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title"> </h5>
+							<p class="gray-text">Pieza digital creada bajo el software Aftter Effects, "Tipografia
+								Liquida".
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Y35jendsxfU"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+			<!--Video 4-->
+			<div class="row mt-5">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-1 mr-3">
+							<i class="fa fa-solid fa-play"></i>
+						</div>
+						<div class="col-10">
+							<h5 class="feature-title"> </h5>
+							<p class="gray-text"> Practica llevada a cabo con adobe premiere, mediante la herramienta
+								incrustracion por mate, este permite incrustrar una imagen en valores negativos y
+								positivos para luego ser tratadoss con este efecto provechando justamente la luminancia.
+								Logrando otorgar mayor dinamismo a la composicion.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/mtZ1k41sLx8"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<br>
+			<hr>
+		</div>
+
+		<!--FOOTER-->
+		<footer>
+			<div class="container">
+				<div class="row redes-sociales justify-content-center">
+					<div class="col-auto">
+						<a href="https://www.instagram.com/florenciaeverios/" id="contacto" target="_blank"><img
+								src="img/icon2.png" width="140" height="140" style="margin: 20px;"></a>
+						<a href="https://www.linkedin.com/in/florencia-rios-74a82a192/" target="_blank"><img
+								src="img/icon1.png" width="150" height="150"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+</body>
+
+
+
+
+</html>
